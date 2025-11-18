@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bhabishya Regmi | Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -14,6 +16,7 @@
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -21,42 +24,104 @@
   <!-- HERO SECTION -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <img src="your-photo.jpg" alt="Profile Image" class="profile-img" style="width:150px;height:150px;border-radius:50%;margin-bottom:15px;">
+      <img src="your-photo.jpg" alt="Profile photo of Bhabishya Regmi" class="profile-img" style="width:150px;height:150px;border-radius:50%;margin-bottom:15px;">
       <h1>Hello, I'm <span class="highlight">Bhabishya Regmi</span></h1>
-      <p>Footballer • Computer Science Student • Future Cloud Security Engineer</p>
+      <p>Footballer • Cybersecurity Student • Cloud Security Engineer</p>
       <a class="btn" href="#about">Explore More</a>
     </div>
   </section>
-  <!-- Image -->
-  <section>
-    <img src="image/hero.jpeg" alt="Profile Image" class="profile-img" style="width:150px;height:150px;border-radius:50%;margin-bottom:15px;">
 
-  </section>
- 
   <!-- ABOUT SECTION -->
   <section id="about" class="section">
     <h2>About Me</h2>
     <p class="about-text">
-      I am a passionate learner in the field of technology and cybersecurity. I enjoy building projects,
-      solving problems, and improving my skills. Alongside academics, I am an active football player
-      participating in district, provincial, and national-level competitions.
+      Versatile and accomplished professional with expertise in Microsoft Office and multiple programming languages, demonstrating a proven track record in full-stack project development. Skilled in PHP, Linux environments, and modern web technologies, with strong capabilities in penetration testing and cybersecurity practices. Excels in content creation, web design, and software development, combining technical depth with creative problem-solving. Adept in leadership through active participation in football tournaments and a strong commitment to social service. Driven to contribute dynamically in professional environments, leveraging a unique blend of technical proficiency, cybersecurity knowledge, and creative insight.
     </p>
+  </section>
+  <section id="Education">
+        <h1> Education</h1>
+        <tableborder="2">
+            <tr>
+                <td>Institution</td> 
+                <td>Degree</td>
+                <td>Board</td>
+                <td>Grade</td>
+                <td>Year</td>
+            </tr>
+            <tr>
+                <td>Herald College,Naxal,Kathmandu</td>
+                <td>BSc(hons)in CyberSecurity</td>
+                <td>Bachelors</td>
+                <td>Running</td>
+                <td>2025-2028</td>
+            </tr>
+            <tr>
+                <td>Trinity International Secondary School, Kathmandu</td>
+                <td>Intermediate in Science</td>
+                <td>NEB</td>
+                <td>A</td>
+                <td>2021-2023</td>
+            </tr>
+            <tr>
+                <td>The Old Capital Secondary School,Gorkha</td>
+                <td>Secondary Education</td>
+                <td>PABSON</td>
+                <td>A</td>
+                <td>2020</td>
+            </tr>      
+        </table>
+    </section>
+
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section">
+    <h2>My Projects</h2>
+    <article>
+      <h3>Project 1: Real time weatherapp</h3>
+      <p>A dynamic weatherapp built with HTML,CSS,Js,PHP and mysql.</p>
+      <a href="#" target="_blank">View Project</a>
+    </article>
+    <article>
+      <h3>Project 2: Encryption and Decryption tool</h3>
+      <p>Encrypt and decrypt by caeser cipher with python</p>
+      <a href="#" target="_blank">View Project</a>
+    </article>
   </section>
 
   <!-- CONTACT SECTION -->
-  <section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <div class="contact-box">
-      <input type="text" placeholder="Your Name">
-      <input type="email" placeholder="Your Email">
-      <textarea rows="5" placeholder="Your Message"></textarea>
-      <button class="btn">Send Message</button>
-    </div>
-  </section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <form> 
+            <label> Enter First Name: </label>
+            <input type="text"><br>
+            <label> Enter Last Name: </label>
+            <input type="text"><br>
+
+            <label> Enter Mobile number:</label>
+            <input type="number"><br>
+            <label> Enter Email Address :</label>
+            <input type="email"><br>
+            <label> Enter Your Queries:</label>
+            <br>
+            <textarea id="Queries" name="About me " rows="4" cols="50"></textarea>
+            <button>Submit</button> 
+        </form>
+    </section>
+
+
+     <!-- Social Handles -->
+<section id="social">
+  <div class="social-icons">
+    <a href="https://www.facebook.com/bhabishya.regmi.14/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/itsphisher_futuree/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/bhabishya-regmi-bb6178229/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/hwakcell/" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    © 2025 Bhabishya Regmi | All Rights Reserved
+    <p>&copy; 2025 Bhabishya Regmi | All Rights Reserved</p>
   </footer>
 </body>
 </html>
