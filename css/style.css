@@ -7,21 +7,23 @@
 }
 
 body {
-    background: #f0f2f5;
+    background: #f4f4f9;
     color: #222;
     line-height: 1.6;
     scroll-behavior: smooth;
 }
 
-/* NAVBAR */
+/* ==========================
+   NAVBAR
+========================== */
 .navbar {
     width: 100%;
-    background: #1f4037;
+    background: #4A00E0;
     padding: 15px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .nav-links {
@@ -36,22 +38,24 @@ body {
     color: #fff;
     font-size: 17px;
     padding: 8px 15px;
-    border-radius: 5px;
+    border-radius: 6px;
     transition: 0.3s ease;
 }
 
 .nav-links li a:hover {
-    background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.25);
     transform: scale(1.1);
 }
 
-/* HERO SECTION */
+/* ==========================
+   HERO SECTION
+========================== */
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 80px 10%;
-    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    background: linear-gradient(135deg, #4A00E0, #8E2DE2);
     color: white;
     flex-wrap: wrap;
 }
@@ -62,7 +66,8 @@ body {
 }
 
 .highlight {
-    color: #99f2c8;
+    color: #F4EFFF;
+    font-weight: 700;
 }
 
 .hero-left p {
@@ -81,22 +86,25 @@ body {
 
 .btn {
     display: inline-block;
-    background: #1f4037;
-    color: white;
+    background: #ffffff;
+    color: #4A00E0;
     padding: 12px 30px;
     border-radius: 6px;
     text-decoration: none;
     transition: 0.3s ease;
     font-size: 16px;
+    font-weight: 700;
 }
 
 .btn:hover {
-    background: #99f2c8;
-    color: #222;
+    background: #8E2DE2;
+    color: #fff;
     transform: scale(1.05);
 }
 
-/* UNIVERSAL SECTIONS */
+/* ==========================
+   UNIVERSAL SECTIONS
+========================== */
 .section {
     padding: 70px 15%;
     margin-bottom: 40px;
@@ -108,8 +116,8 @@ body {
 .section-title {
     font-size: 34px;
     margin-bottom: 25px;
-    color: #1f4037;
-    border-left: 6px solid #99f2c8;
+    color: #4A00E0;
+    border-left: 6px solid #8E2DE2;
     padding-left: 12px;
 }
 
@@ -119,7 +127,9 @@ body {
     line-height: 1.7;
 }
 
-/* EDUCATION TABLE */
+/* ==========================
+   EDUCATION TABLE
+========================== */
 .edu-table-wrapper {
     overflow-x: auto;
 }
@@ -131,7 +141,7 @@ body {
 }
 
 .edu-table th {
-    background: #1f4037;
+    background: #4A00E0;
     color: white;
     padding: 12px;
     font-size: 17px;
@@ -143,11 +153,13 @@ body {
 }
 
 .edu-table tr:hover {
-    background: rgba(159,226,191,0.15);
+    background: #f2e6ff;
     transition: 0.3s;
 }
 
-/* PROJECT GRID */
+/* ==========================
+   PROJECT GRID
+========================== */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -156,21 +168,21 @@ body {
 }
 
 .project-card {
-    background: #f9f9f9;
+    background: #faf7ff;
     padding: 22px;
     border-radius: 10px;
-    border-left: 5px solid #99f2c8;
+    border-left: 5px solid #8E2DE2;
     transition: 0.3s ease;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .project-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
 }
 
 .project-card h3 {
-    color: #1f4037;
+    color: #4A00E0;
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -182,16 +194,17 @@ body {
 
 .project-card a {
     text-decoration: none;
-    color: #1f4037;
-    font-weight: 600;
-    transition: 0.3s ease;
+    color: #8E2DE2;
+    font-weight: 700;
 }
 
 .project-card a:hover {
-    color: #e67e22;
+    color: #E67E22;
 }
 
-/* CONTACT FORM */
+/* ==========================
+   CONTACT FORM
+========================== */
 .contact-form label {
     font-size: 16px;
     margin-top: 10px;
@@ -203,8 +216,8 @@ body {
     width: 100%;
     padding: 12px;
     margin: 8px 0 15px 0;
-    border-radius: 5px;
-    border: 1px solid #999;
+    border-radius: 6px;
+    border: 1px solid #bbb;
     transition: 0.3s;
     font-size: 15px;
 }
@@ -212,11 +225,13 @@ body {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #1f4037;
-    box-shadow: 0 0 8px #1f403780;
+    border-color: #8E2DE2;
+    box-shadow: 0 0 8px #8e2de28a;
 }
 
-/* SOCIAL ICONS */
+/* ==========================
+   SOCIAL ICONS
+========================== */
 #social {
     padding: 50px 0;
     text-align: center;
@@ -224,56 +239,117 @@ body {
 
 .social-icons a {
     margin: 0 12px;
-    font-size: 26px;
-    color: #1f4037;
+    font-size: 28px;
+    color: #4A00E0;
     transition: 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: #99f2c8;
-    transform: scale(1.2);
+    color: #8E2DE2;
+    transform: scale(1.25);
 }
 
-/* FOOTER */
+/* ==========================
+   FOOTER
+========================== */
 .footer {
     text-align: center;
     padding: 25px;
-    background: #111;
+    background: #1a1a1a;
     color: white;
     font-size: 14px;
 }
 
-/* RESPONSIVE */
+/* ==========================
+   RESPONSIVE DESIGN
+========================== */
+
+/* Tablets */
 @media (max-width: 900px) {
     .hero {
         flex-direction: column;
         text-align: center;
     }
 
-    .hero-right {
-        margin-top: 25px;
-    }
-
     .hero-img {
         width: 220px;
         height: 220px;
+        margin-top: 20px;
     }
 }
 
-@media (max-width: 768px) {
-    .section {
-        padding: 50px 8%;
-    }
-
+/* Large Phones */
+@media (max-width: 600px) {
     .nav-links {
         flex-direction: column;
         gap: 15px;
-        padding-bottom: 15px;
+        padding-bottom: 12px;
+    }
+
+    .section {
+        padding: 55px 8%;
+    }
+
+    .hero-left h1 {
+        font-size: 36px;
+    }
+
+    .hero-left p {
+        font-size: 16px;
+    }
+
+    .hero-img {
+        width: 190px;
+        height: 190px;
     }
 }
 
-@media (max-width: 480px) {
+/* Modern Smartphones (iPhone 12/13/14/15 & Android) */
+@media (max-width: 430px) {
+    .hero {
+        padding: 50px 6%;
+    }
+
+    .hero-left h1 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .nav-links li a {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .about-text {
+        font-size: 16px;
+    }
+
+    .edu-table th,
+    .edu-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
     .project-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Smallest Phones: 360–380px width (Samsung A-series, older iPhones) */
+@media (max-width: 380px) {
+    .hero-left h1 {
+        font-size: 26px;
+    }
+
+    .btn {
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+
+    .nav-links {
+        gap: 12px;
     }
 }
