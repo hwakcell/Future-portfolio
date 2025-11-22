@@ -13,9 +13,7 @@ body {
     scroll-behavior: smooth;
 }
 
-/* ==========================
-   NAVBAR
-========================== */
+/* NAVBAR */
 .navbar {
     width: 100%;
     background: #4A00E0;
@@ -47,9 +45,7 @@ body {
     transform: scale(1.1);
 }
 
-/* ==========================
-   HERO SECTION
-========================== */
+/* HERO SECTION */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -102,9 +98,7 @@ body {
     transform: scale(1.05);
 }
 
-/* ==========================
-   UNIVERSAL SECTIONS
-========================== */
+/* UNIVERSAL SECTIONS */
 .section {
     padding: 70px 15%;
     margin-bottom: 40px;
@@ -127,9 +121,7 @@ body {
     line-height: 1.7;
 }
 
-/* ==========================
-   EDUCATION TABLE
-========================== */
+/* EDUCATION TABLE */
 .edu-table-wrapper {
     overflow-x: auto;
 }
@@ -157,9 +149,7 @@ body {
     transition: 0.3s;
 }
 
-/* ==========================
-   PROJECT GRID
-========================== */
+/* PROJECT GRID */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -202,9 +192,7 @@ body {
     color: #E67E22;
 }
 
-/* ==========================
-   CONTACT FORM
-========================== */
+/* CONTACT FORM */
 .contact-form label {
     font-size: 16px;
     margin-top: 10px;
@@ -229,9 +217,7 @@ body {
     box-shadow: 0 0 8px #8e2de28a;
 }
 
-/* ==========================
-   SOCIAL ICONS
-========================== */
+/* SOCIAL ICONS */
 #social {
     padding: 50px 0;
     text-align: center;
@@ -249,9 +235,7 @@ body {
     transform: scale(1.25);
 }
 
-/* ==========================
-   FOOTER
-========================== */
+/* FOOTER */
 .footer {
     text-align: center;
     padding: 25px;
@@ -260,9 +244,7 @@ body {
     font-size: 14px;
 }
 
-/* ==========================
-   RESPONSIVE DESIGN
-========================== */
+/* RESPONSIVE DESIGN */
 
 /* Tablets */
 @media (max-width: 900px) {
@@ -304,7 +286,7 @@ body {
     }
 }
 
-/* Modern Smartphones (iPhone 12/13/14/15 & Android) */
+/* Modern Smartphones */
 @media (max-width: 430px) {
     .hero {
         padding: 50px 6%;
@@ -338,7 +320,7 @@ body {
     }
 }
 
-/* Smallest Phones: 360–380px width (Samsung A-series, older iPhones) */
+/* Smallest Phones */
 @media (max-width: 380px) {
     .hero-left h1 {
         font-size: 26px;
