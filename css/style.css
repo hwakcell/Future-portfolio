@@ -43,59 +43,78 @@ body {
     background: rgba(255,255,255,0.25);
     transform: scale(1.1);
 }
-
-/* HERO SECTION */
-.hero {
+/* CONTACT FORM ONLY */
+.contact-form {
+    max-width: 700px;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px 10%;
-    background: linear-gradient(135deg, #4A00E0, #8E2DE2);
-    color: white;
     flex-wrap: wrap;
+    gap: 20px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
-.hero-left h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
+.form-group {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
 }
 
-.highlight {
-    color: #F4EFFF;
-    font-weight: 700;
+.form-group.full-width {
+    width: 100%;
 }
 
-.hero-left p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.contact-form label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
 }
 
-.hero-img {
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid white;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
-}
-
-.btn {
-    display: inline-block;
-    background: #ffffff;
-    color: #4A00E0;
-    padding: 12px 30px;
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
     border-radius: 6px;
-    text-decoration: none;
-    transition: 0.3s ease;
+    border: 2px solid #ddd;
     font-size: 16px;
-    font-weight: 700;
+    transition: 0.3s;
 }
 
-.btn:hover {
-    background: #8E2DE2;
-    color: #fff;
-    transform: scale(1.05);
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #8E2DE2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(142,45,226,0.4);
 }
+
+.submit-btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Success Message */
+.success-message {
+    max-width: 600px;
+    margin: 20px auto 0;
+    padding: 15px;
+    background: #4BB543;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 6px;
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.4s ease;
+}
+
+.success-message.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 /* UNIVERSAL SECTIONS */
 .section {

@@ -111,28 +111,43 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="section">
-    <h2 class="section-title">Contact</h2>
+<section id="contact" class="section">
+  <h2 class="section-title">Contact</h2>
 
-    <form class="contact-form">
+  <form class="contact-form" id="contactForm">
+    <div class="form-group">
       <label>First Name</label>
-      <input type="text">
+      <input type="text" required>
+    </div>
 
+    <div class="form-group">
       <label>Last Name</label>
-      <input type="text">
+      <input type="text" required>
+    </div>
 
+    <div class="form-group">
       <label>Mobile Number</label>
-      <input type="number">
+      <input type="number" required>
+    </div>
 
+    <div class="form-group">
       <label>Email Address</label>
-      <input type="email">
+      <input type="email" required>
+    </div>
 
+    <div class="form-group full-width">
       <label>Your Queries</label>
-      <textarea rows="4"></textarea>
+      <textarea rows="4" required></textarea>
+    </div>
 
-      <button type="submit" class="btn">Submit</button>
-    </form>
-  </section>
+    <button type="submit" class="btn submit-btn">Submit</button>
+  </form>
+
+  <!-- Success Message -->
+  <div id="successMessage" class="success-message">
+    Your form has been submitted successfully!
+  </div>
+</section>
 
   <!-- SOCIAL -->
   <section id="social">
