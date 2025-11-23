@@ -149,6 +149,23 @@
   </div>
 </section>
 
+<script>
+  const form = document.getElementById("contactForm");
+  const successMessage = document.getElementById("successMessage");
+
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    successMessage.style.display = "block";
+    successMessage.classList.add("show");
+
+    // Wait 2 seconds then reload the page
+    setTimeout(() => {
+      location.reload();
+    }, 2000);
+  });
+</script>
+
   <!-- SOCIAL -->
   <section id="social">
     <div class="social-icons">
